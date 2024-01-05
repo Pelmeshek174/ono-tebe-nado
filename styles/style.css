@@ -122,51 +122,151 @@
 
 .aligned-text-right {
   display: block;
-  letter-spacing: 40px;
-  text-align: right;
   padding-top: 2px;
   padding-right: 20px;
-
+  letter-spacing: 40px;
+  text-align: right;
 }
 
 .letter-spacing-right {
   display: inline-block;
-  letter-spacing: 30px;
   padding-left: 20px;
+  letter-spacing: 30px;
 }
 
 .cover-discription {
-  display: flex;
   position: relative;
+  display: flex;
   gap: 76px;
 }
 
 .cover-discription-text {
-  color: #FFF;
+  padding-top: 140px;
+  padding-left: 78px;
+  color: #fff;
   font-family: Raleway, "sans-serif";
+  font-weight: 400;
   font-size: 22px;
   font-style: normal;
-  font-weight: 400;
   line-height: 28px; /* 127.273% */
   text-transform: uppercase;
-  padding-left: 78px;
-  padding-top: 140px;
   word-spacing: 19px;
-
 }
 
 .bet-button {
   width: 256px;
   height: 51px;
-  border: 1px solid #FFF;
-  background-color: transparent;
-  color: #FFF;
-  text-align: center;
+  margin-top: 127px;
+  border: 1px solid #fff;
+  color: #fff;
   font-family: Raleway, "sans-serif";
+  font-weight: 500;
   font-size: 22px;
   font-style: normal;
-  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: transparent;
+}
+
+.lots {
+  margin: 180px 24px;
+}
+
+.lots-heading {
+  margin-top: 179px;
+  margin-left: 40px;
+  color: #000;
+  font-family: Raleway, "sans-serif";
+  font-weight: 700;
+  font-size: 40px;
+  font-style: normal;
   line-height: normal;
   text-transform: uppercase;
-  margin-top: 127px;
+}
+
+.lots_card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 27px;
+  list-style: none;
+}
+
+.lots_card-list-item {
+  flex-grow: 1;
+  flex-basis: 334px;
+  min-height: 563px;
+}
+
+.card-link {
+  display: block;
+  height: 100%;
+  text-decoration: none;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 100%;
+  padding-top: 51px;
+  padding-right: 40px;
+  padding-bottom: 48px;
+  padding-left: 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.first-card {
+  background-image: url(../images/card-lot-01.jpg);
+}
+
+.second-card {
+  background-image: url(../images/card-lot-02.jpg);
+}
+
+.third-card {
+  background-image: url(../images/card-lot-03.jpg);
+}
+
+.card-title {
+  z-index: 1;
+  display: flex;
+  padding-top: 51px;
+  padding-right: 40px;
+  padding-left: 40px;
+  color: #FFF;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 22px;
+  font-style: normal;
+  line-height: 120%; /* 26.4px */
+  text-decoration-line: underline;
+  text-transform: uppercase;
+}
+
+.card-text {
+  z-index: 1;
+  display: flex;
+  color: #FFF;
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 120%; /* 24px */
+}
+
+.show-more {
+  display: block;
+  margin: 31px auto 0 40px;
+  color: #000;
+  font-family: Raleway, "sans-serif";
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+  line-height: normal;
 }
