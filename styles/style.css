@@ -239,7 +239,7 @@
   padding-top: 51px;
   padding-right: 40px;
   padding-left: 40px;
-  color: #FFF;
+  color: #fff;
   font-family: Raleway;
   font-weight: 700;
   font-size: 22px;
@@ -252,7 +252,7 @@
 .card-text {
   z-index: 1;
   display: flex;
-  color: #FFF;
+  color: #fff;
   font-family: Raleway;
   font-weight: 400;
   font-size: 20px;
@@ -262,11 +262,117 @@
 
 .show-more {
   display: block;
-  margin: 31px auto 0 40px;
+  margin: 31px 0 0 40px;
   color: #000;
   font-family: Raleway, "sans-serif";
   font-weight: 400;
   font-size: 20px;
   font-style: normal;
   line-height: normal;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: 334px 1fr;
+  grid-template-rows: 563px 1fr;
+  gap: 25px;
+  margin-top: 146px;
+  margin-right: 24px;
+  margin-left: 24px;
+}
+
+.about-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-logo {
+  display: flex;
+  justify-content: center;
+  width: 240px;
+  height: 240px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-color: rgb(0, 0, 0);
+}
+
+.about-logo-img {
+  align-self: center;
+  width: 148px;
+  height: 114px;
+}
+
+.about-title {
+  margin-top: 101px;
+  margin-bottom: 100px;
+  color: #000;
+  font-family: Raleway, "sans-serif";
+  font-weight: 700;
+  font-size: 40px;
+  font-style: normal;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.about-text-flex {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.about-text {
+  color: #000;
+  font-family: Raleway "sans-serif";
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 24px; /* 120% */
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 155px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+}
+
+.footer_address {
+  display: flex;
+  flex-direction: column;
+  justify-self: left;
+  align-self: center;
+  width: 240px;
+  margin-right: 6%;
+}
+
+.footer-menu {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer-no-bullit {
+  font-family: Raleway, "sans-serif";
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+  line-height: normal;
+  list-style: none;
+}
+
+.footer_link_active {
+  text-decoration: none;
+}
+
+.social-media {
+  display: flex;
+  justify-self: flex-end;
+  column-gap: 48px;
+}
+
+.social-media-icon {
+  width: 48px;
+  height: 48px;
 }
